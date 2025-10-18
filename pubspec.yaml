@@ -1,5 +1,15 @@
+name: hafiza_webview
+description: Hafıza oyunu için özel WebView modülü
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
 dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.2.2
+
 flutter:
-  sdk: flutter
-    webview_flutter: ^4.2.2
+  uses-material-design: true
   
